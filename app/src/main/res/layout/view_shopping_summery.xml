@@ -47,6 +47,7 @@
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:background="@drawable/round_imageview_background"
+            android:scaleType="fitXY"
             android:clipToOutline="true"
             android:id="@+id/image_one"/>
 
@@ -59,6 +60,7 @@
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:background="@drawable/round_imageview_background"
+            android:scaleType="fitXY"
             android:clipToOutline="true"
             android:id="@+id/image_two"/>
 
@@ -71,6 +73,7 @@
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:background="@drawable/round_imageview_background"
+            android:scaleType="fitXY"
             android:clipToOutline="true"
             android:id="@+id/image_three"/>
     </LinearLayout>

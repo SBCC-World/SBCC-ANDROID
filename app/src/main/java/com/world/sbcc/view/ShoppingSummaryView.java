@@ -75,17 +75,17 @@ public class ShoppingSummaryView extends LinearLayout implements View.OnClickLis
             JSONArray productInfos = mProductInfo.has("products") ? mProductInfo.getJSONArray("products") : null;
             if (productInfos == null) {
                 if (SBCCPropertites.SHOP_NEW_ITEM == productType) {
-                    mImageOne.setImageResource(R.drawable.rectangle_74);
-                    mImageTwo.setImageResource(R.drawable.image_9);
-                    mImageThree.setImageResource(R.drawable.image_10);
+                    mImageOne.setImageResource(R.drawable.shopping_1);
+                    mImageTwo.setImageResource(R.drawable.shopping_2);
+                    mImageThree.setImageResource(R.drawable.shopping_3);
                 } else if (SBCCPropertites.SHOP_USED_ITEM == productType) {
-                    mImageOne.setImageResource(R.drawable.rectangle_76);
-                    mImageTwo.setImageResource(R.drawable.image_10_1);
-                    mImageThree.setImageResource(R.drawable.image_10_2);
+                    mImageOne.setImageResource(R.drawable.shopping_4);
+                    mImageTwo.setImageResource(R.drawable.shopping_5);
+                    mImageThree.setImageResource(R.drawable.shopping_6);
                 } else if (SBCCPropertites.SHOP_FREE_ITEM == productType) {
-                    mImageOne.setImageResource(R.drawable.rectangle_74_1);
-                    mImageTwo.setImageResource(R.drawable.image_10_3);
-                    mImageThree.setImageResource(R.drawable.image_9_1);
+                    mImageOne.setImageResource(R.drawable.shopping_7);
+                    mImageTwo.setImageResource(R.drawable.shopping_8);
+                    mImageThree.setImageResource(R.drawable.shopping_9);
                 }
                 return;
             }

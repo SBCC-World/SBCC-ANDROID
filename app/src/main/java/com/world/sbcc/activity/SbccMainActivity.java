@@ -71,8 +71,7 @@ public class SbccMainActivity extends AppCompatActivity implements FragmentEmitI
             @Override
             public void onClick(View view) {
                 ReplaceFragment(SBCCPropertites.FRAGMENT_COMMUNITY, null);
-                btn_color_reset();
-                mCommunityBtn.setTextColor(getColor(R.color.white));
+
             }
         });
 
@@ -81,8 +80,7 @@ public class SbccMainActivity extends AppCompatActivity implements FragmentEmitI
             @Override
             public void onClick(View view) {
                 ReplaceFragment(SBCCPropertites.FRAGMENT_HOME_NOT_REGISTER, null);
-                btn_color_reset();
-                mHomeBtn.setColorFilter(getColor(R.color.white));
+
             }
         });
 
@@ -91,8 +89,8 @@ public class SbccMainActivity extends AppCompatActivity implements FragmentEmitI
             @Override
             public void onClick(View view) {
                 ReplaceFragment(SBCCPropertites.FRAGMENT_SHOPPING, null);
-                btn_color_reset();
-                mShoppingBtn.setTextColor(getColor(R.color.white));
+
+
             }
         });
 
@@ -193,14 +191,20 @@ public class SbccMainActivity extends AppCompatActivity implements FragmentEmitI
 
     private void SelectedBottomNavi(int displayMode) {
         if (displayMode == SBCCPropertites.FRAGMENT_COMMUNITY) {
+            btn_color_reset();
+            mCommunityBtn.setTextColor(getColor(R.color.white));
             mCommunityBtn.setSelected(true);
             mShoppingBtn.setSelected(false);
             mHomeBtn.setSelected(false);
         } else if (displayMode == SBCCPropertites.FRAGMENT_SHOPPING) {
+            btn_color_reset();
+            mShoppingBtn.setTextColor(getColor(R.color.white));
             mCommunityBtn.setSelected(false);
             mShoppingBtn.setSelected(true);
             mHomeBtn.setSelected(false);
         } else {
+            btn_color_reset();
+            mHomeBtn.setColorFilter(getColor(R.color.white));
             mCommunityBtn.setSelected(false);
             mShoppingBtn.setSelected(false);
             mHomeBtn.setSelected(true);

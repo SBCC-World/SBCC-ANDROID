@@ -154,19 +154,19 @@ public class FragmentDetailProduct extends Fragment implements FragmentInteface 
         if (SBCCPropertites.SHOP_NEW_ITEM == type) {
             tradeTypeText.setText(R.string.new_products_str);
             if (index == 0) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.rectangle_74));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_1));
                 tradeTitleText.setText(R.string.temp_product_title1);
                 tradeDescText.setText(R.string.temp_product_subject1);
                 updateTime.setText(R.string.temp_product_date1);
                 priceText.setText("100,000원");
             } else if (index == 1) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.image_9));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_2));
                 tradeTitleText.setText(R.string.temp_product_title2);
                 tradeDescText.setText(R.string.temp_product_subject2);
                 updateTime.setText(R.string.temp_product_date2);
                 priceText.setText("30,000원");
             } else if (index == 2) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.image_10));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_3));
                 tradeTitleText.setText(R.string.temp_product_title3);
                 tradeDescText.setText(R.string.temp_product_subject3);
                 updateTime.setText(R.string.temp_product_date3);
@@ -175,19 +175,19 @@ public class FragmentDetailProduct extends Fragment implements FragmentInteface 
         } else if (SBCCPropertites.SHOP_USED_ITEM == type) {
             tradeTypeText.setText(R.string.used_trade_str);
             if (index == 0) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.rectangle_76));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_4));
                 tradeTitleText.setText(R.string.temp_product_title4);
                 tradeDescText.setText(R.string.temp_product_subject4);
                 updateTime.setText(R.string.temp_product_date4);
                 priceText.setText("200,000원");
             } else if (index == 1) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.image_10_1));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_5));
                 tradeTitleText.setText(R.string.temp_product_title5);
                 tradeDescText.setText(R.string.temp_product_subject5);
                 updateTime.setText(R.string.temp_product_date5);
                 priceText.setText("70,000원");
             } else if (index == 2) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.image_10_2));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_6));
                 tradeTitleText.setText(R.string.temp_product_title6);
                 tradeDescText.setText(R.string.temp_product_subject6);
                 updateTime.setText(R.string.temp_product_date6);
@@ -196,17 +196,17 @@ public class FragmentDetailProduct extends Fragment implements FragmentInteface 
         } else if (SBCCPropertites.SHOP_FREE_ITEM == type) {
             tradeTypeText.setText(R.string.free_sharing_str);
             if (index == 0) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.rectangle_74_1));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_7));
                 tradeTitleText.setText(R.string.temp_product_title7);
                 tradeDescText.setText(R.string.temp_product_subject7);
                 updateTime.setText(R.string.temp_product_date7);
             } else if (index == 1) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.image_10_3));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_8));
                 tradeTitleText.setText(R.string.temp_product_title8);
                 tradeDescText.setText(R.string.temp_product_subject8);
                 updateTime.setText(R.string.temp_product_date8);
             } else if (index == 2) {
-                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.image_9_1));
+                list.add(new ProductDetailData(ProductDetailData.TYPE_DRAWABLE, R.drawable.shopping_9));
                 tradeTitleText.setText(R.string.temp_product_title9);
                 tradeDescText.setText(R.string.temp_product_subject9);
                 updateTime.setText(R.string.temp_product_date9);

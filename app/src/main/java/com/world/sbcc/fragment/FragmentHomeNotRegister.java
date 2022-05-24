@@ -136,7 +136,7 @@ public class FragmentHomeNotRegister extends Fragment implements FragmentIntefac
             }
         });
         if(mQRPrams != null) {
-            CommonUtils.ShowNotAuthDeviceDialog(getContext());
+            CommonUtils.ShowNoMemberDialog(getContext());
         }
     }
 
