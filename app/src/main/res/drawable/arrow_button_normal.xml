@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/round_button_press_color"></solid>
+</shape>
+
+    <?xml version="1.0" encoding="utf-8"?>-->
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#30000000"/>
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/arrow"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+</layer-list>

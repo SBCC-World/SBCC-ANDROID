@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">SBCC application</string>
+    <string name="smart_block_chain_city">Smart Block Chain City</string>
+    <string name="title_activity_sbcc_intro">SBCC</string>
+    <string name="please_install_metamask_app">Please install Metamask app</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_sbcc_main">SbccMainActivity</string>
+    <string name="account">Account : </string>
+    <string name="balanceOf">balanceOf : </string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="registration_str">Registration</string>
+    <string name="light_controller_str">Light cotrol</string>
+    <string name="no_member_str">SBCC 주민이 아닙니다.</string>
+    <string name="install_metamask_str">MetaMask를 설치해주세요.</string>
+    <string name="new_products_str">새상품</string>
+    <string name="used_trade_str">중고거래</string>
+    <string name="free_sharing_str">무료나눔</string>
+    <string name="more_view_str">더보기 ></string>
+    <string name="sold_out_product_str">상품이 품절되었습니다.</string>
+    <string name="connect_by_privatekey_str">프라이빗 키로 연결</string>
+    <string name="see_mode">우선 구경하기</string>
+    <string name="connect_to_wallpad_str">월 패드 연결하기</string>
+    <string name="remote_control_str">원격제어</string>
+
+    <string name="home_condition_str">집 컨디션</string>
+    <string name="condition_good_str">상태좋음</string>
+    <string name="light_str">전등</string>
+    <string name="on_str">켜짐</string>
+    <string name="off_str">꺼짐</string>
+    <string name="out_mode_str">외출모드</string>
+    <string name="out_str">외출</string>
+
+    <string name="temp_and_humidity_str">온도 및 습도</string>
+    <string name="boiler_and_gas_str">보일러 및 가스</string>
+    <string name="aircon_str">에어컨</string>
+    <string name="vote_subject_str">의제 투표</string>
+    <string name="vote_ing_str">진행중</string>
+    <string name="vote_done_str">완료</string>
+    <string name="not_auth_device_str">인증된 기기가 아닙니다.\n\n나중에 다시 시도하십시오. </string>
+
+    <!-- TODO: Remove or change this temporary text -->
+    <string name="temp_main_str">Home Display</string>
+    <string name="temp_community_str">Community Display</string>
+    <string name="temp_temp_and_humidity_str">온도 24°C | 습도 56%</string>
+
+    <string name="temp_product_title1">최신 유행 스마트워치 판매합니다~</string>
+    <string name="temp_product_title2">브랜드 향수 새 상품 팝니다!</string>
+    <string name="temp_product_title3">탈모 예방 샴푸입니다</string>
+    <string name="temp_product_title4">게임 컨솔입니다.</string>
+    <string name="temp_product_title5">고급 스마트워치입니다.</string>
+    <string name="temp_product_title6">딱 한번 쓴 고급 아로마오일이에요^^</string>
+    <string name="temp_product_title7">무료 나눔합니다~</string>
+    <string name="temp_product_title8">무료나눔합니다!!</string>
+    <string name="temp_product_title9">무료 나눔합니다~</string>
+
+    <string name="temp_product_subject1">한번도 안쓴 새 상품입니다.</string>
+    <string name="temp_product_subject2">제가 향수를 안 쓰는데 선물 받아서\n저렴한 가격에 팝니다~</string>
+    <string name="temp_product_subject3">정말 효과가 좋다고 하네요</string>
+    <string name="temp_product_subject4">정말 재밌는 게임인데 아이들이 질렸는지 더 이상 플레이하지 않아서 중고 판매합니다</string>
+    <string name="temp_product_subject5">몇 번 착용하지 않아 새 것 같습니다\n시중에서는 14만원에 판매하는데 반값에 내놓겠습니다~</string>
+    <string name="temp_product_subject6">냉무...</string>
+    <string name="temp_product_subject7">고급 가죽으로 만든 신발, 사이즈 235입니다.</string>
+    <string name="temp_product_subject8">최신 인기 브랜드의 색색깔 장양말입니다. 무료나눔합니다!!</string>
+    <string name="temp_product_subject9">새 상품 이어패드 무료 나눔합니다</string>
+
+    <string name="temp_product_date1">22.05.11 15:15</string>
+    <string name="temp_product_date2">22.05.10 15:11</string>
+    <string name="temp_product_date3">22.05.9 10:11</string>
+    <string name="temp_product_date4">22.05.12 09:30</string>
+    <string name="temp_product_date5">22.05.10 15:11</string>
+    <string name="temp_product_date6">22.04.30 10:11</string>
+    <string name="temp_product_date7">22.05.11 14:15</string>
+    <string name="temp_product_date8">22.05.10 15:11</string>
+    <string name="temp_product_date9">22.05.9 10:30</string>
+
+    <string name="temp_vote_subject1">승강기 교체 건의</string>
+    <string name="temp_vote_duration1">투표 기간 | 2022-05-20~2022-06-21</string>
+    <string name="temp_vote_subject2">수도 정비 건의</string>
+    <string name="temp_vote_duration2">투표 기간 | 2022-05-18~2022-06-14</string>
+    <string name="temp_vote_subject3">난방비 의혹 제기</string>
+    <string name="temp_vote_duration3">투표 기간 | 2022-05-15~2022-06-10</string>
+    <string name="temp_vote_subject4">주차장 공사 건의</string>
+    <string name="temp_vote_duration4">투표 기간 | 2022-04-28~2022-05-01</string>
+    <string name="temp_vote_subject5">조경 리뉴얼 건의</string>
+    <string name="temp_vote_duration5">투표 기간 | 2022-04-28~2022-05-01</string>
+</resources>

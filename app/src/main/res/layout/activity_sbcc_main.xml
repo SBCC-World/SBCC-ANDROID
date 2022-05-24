@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    tools:context=".activity.SbccMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top_navi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_navi_height"
+            android:layout_alignParentTop="true"
+            android:background="@color/top_nave_background_color">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/app_icon_image"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/logo_white"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/app_icon_image"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/title_activity_sbcc_intro"/>
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:padding="5dp"
+                android:id="@+id/my_wallet_btn"
+                android:src="@drawable/ic_icon_wallet"
+                android:scaleType="fitCenter"
+                android:background="@drawable/circle_ripple_effect_button"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:id="@+id/menu_btn"
+                android:src="@drawable/menu_white"
+                android:scaleType="fitCenter"
+                android:background="@drawable/circle_ripple_effect_button"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_navi_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom_navi_backgound"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:layout_marginRight="10dp"
+                android:text="커뮤니티"
+                android:stateListAnimator="@null"
+                android:id="@+id/goto_community_btn"
+                android:textColor="@drawable/bottom_navi_text_selector"
+                android:background="@drawable/bottom_navi_btn_selector" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:id="@+id/goto_home_btn"
+                android:layout_gravity="center"
+
+                android:scaleType="fitCenter"
+                android:background="@drawable/home_button_selector"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:layout_marginLeft="10dp"
+                android:textColor="@drawable/bottom_navi_text_selector"
+                android:text="쇼핑"
+                android:stateListAnimator="@null"
+                android:id="@+id/goto_shopping_btn"
+                android:background="@drawable/bottom_navi_btn_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

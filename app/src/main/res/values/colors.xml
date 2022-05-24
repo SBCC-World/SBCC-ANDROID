@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="main_background_color">#FFEEF2FE</color>
+    <color name="top_nave_background_color">#3741C3</color>
+    <color name="round_button_selected_color">#FF3D4A80</color>
+    <color name="round_button_press_color">#FFEEF2FE</color>
+    <color name="bottom_navi_btn_selected_color">#FF3D4AD1</color>
+    <color name="bottom_disable_color">#FFE2E2E2</color>
+    <color name="text_disable_color">#FFB4B4B4</color>
+    <color name="sbcc_blue_color">#3741C3</color>
+    <color name="sbcc_disable_bg_color">#FFF8F8F8</color>
+    <color name="sbcc_disable_color">#FFCCCCCC</color>
+    <color name="sbcc_main_color">#3741C3</color>
+    <color name="sbcc_main_color_off">#EEF2FE</color>
+    <color name="sbcc_main_light_color">#B8C9F5</color>
+    <color name="text_color">#222222</color>
+</resources>

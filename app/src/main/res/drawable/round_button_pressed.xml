@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#DEDEDE">
+    <item>
+        <shape android:shape="rectangle" android:padding = "10dp">
+            <solid android:color="@color/round_button_press_color"></solid>
+            <corners
+                android:bottomLeftRadius="45dp"
+                android:bottomRightRadius="45dp"
+                android:topLeftRadius="45dp"
+                android:topRightRadius="45dp"></corners>
+        </shape>
+    </item>
+</ripple>
